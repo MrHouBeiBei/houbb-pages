@@ -1,0 +1,39 @@
+{
+  "name": "houbb-pages",
+  "version": "0.1.0",
+  "description": "web app workflow",
+  "keywords": [
+    "houbb-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/houbb/houbb-pages#readme",
+  "bugs": {
+    "url": "https://github.com/houbb/houbb-pages/issues"
+  },
+  "license": "MIT",
+  "author": "MrHouBeiBei <843834089@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houbb/houbb-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
